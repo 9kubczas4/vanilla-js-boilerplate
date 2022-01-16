@@ -5,6 +5,6 @@ export class ExampleHelper {
       message: 'example method from example helper'
     };
     console.log(example);
-    return 32;
+    return 31;
   }
 }
