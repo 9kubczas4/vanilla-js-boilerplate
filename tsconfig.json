@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ES6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "sourceRoot": "./src",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "mocha", "chai"],
+    "lib": ["DOM"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "exclude": [
+    "./node_modules/",
+    "./dist/"
+  ]
+}
